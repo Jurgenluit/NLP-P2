@@ -17,9 +17,6 @@ Antes de comenzar, asegúrate de tener instalados los siguientes paquetes y bibl
 - WordCloud
 - NMF (Non-Negative Matrix Factorization)
 
-Puedes instalar estos paquetes utilizando `pip`:
-
-
 
 ## Proceso de Análisis
 
@@ -53,10 +50,5 @@ Puedes utilizar el código proporcionado en este proyecto como punto de partida 
 
 Las contribuciones son bienvenidas. Si deseas contribuir o informar sobre problemas, por favor abre un problema o envía una solicitud de extracción.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn nltk textblob wordcloud
