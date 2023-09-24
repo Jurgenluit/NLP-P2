@@ -22,33 +22,38 @@ Puedes instalar estos paquetes utilizando `pip`:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn nltk textblob wordcloud
 
-Proceso de Análisis
+## Proceso de Análisis
+
 El proyecto se divide en varias etapas:
 
-Carga de Datos: Comenzamos cargando los datos de las quejas desde un archivo JSON.
+1. **Carga de Datos**: Comenzamos cargando los datos de las quejas desde un archivo JSON.
 
-Preprocesamiento de Texto: Llevamos a cabo una serie de pasos de preprocesamiento de texto, que incluyen la conversión a minúsculas, eliminación de puntuación, tokenización, eliminación de stopwords, lematización y extracción de partes del discurso.
+2. **Preprocesamiento de Texto**: Llevamos a cabo una serie de pasos de preprocesamiento de texto, que incluyen la conversión a minúsculas, eliminación de puntuación, tokenización, eliminación de stopwords, lematización y extracción de partes del discurso.
 
-Vectorización de Texto: Utilizamos TF-IDF para convertir el texto preprocesado en una representación numérica adecuada para el aprendizaje automático.
+3. **Vectorización de Texto**: Utilizamos TF-IDF para convertir el texto preprocesado en una representación numérica adecuada para el aprendizaje automático.
 
-Descomposición de Matrices No Negativas (NMF): Aplicamos NMF para identificar temas latentes en las quejas y asignamos etiquetas de tema a cada queja.
+4. **Descomposición de Matrices No Negativas (NMF)**: Aplicamos NMF para identificar temas latentes en las quejas y asignamos etiquetas de tema a cada queja.
 
-Visualización de Temas: Visualizamos los temas identificados y sus palabras clave más importantes.
+5. **Visualización de Temas**: Visualizamos los temas identificados y sus palabras clave más importantes.
 
-Exploración de Datos: Realizamos un análisis exploratorio de datos para comprender mejor la distribución de las quejas y otros patrones.
+6. **Exploración de Datos**: Realizamos un análisis exploratorio de datos para comprender mejor la distribución de las quejas y otros patrones.
 
-Entrenamiento de Modelos de Clasificación: Si es necesario, entrenamos modelos de clasificación para tareas adicionales, como la predicción de la categoría de una queja.
+7. **Entrenamiento de Modelos de Clasificación**: Si es necesario, entrenamos modelos de clasificación para tareas adicionales, como la predicción de la categoría de una queja.
 
-Documentación y Resultados: Documentamos los resultados y conclusiones en este archivo README.md y, si es necesario, en otros archivos de informe.
+8. **Documentación y Resultados**: Documentamos los resultados y conclusiones en este archivo README.md y, si es necesario, en otros archivos de informe.
 
-Resultados
+## Resultados
+
 El análisis de quejas ha revelado varios temas latentes, lo que nos permite comprender mejor las preocupaciones y problemas más comunes de los consumidores. Los resultados se pueden encontrar en el proyecto, junto con visualizaciones y gráficos que ayudan a comunicar estos hallazgos de manera efectiva.
 
-Uso del Código
+## Uso del Código
+
 Puedes utilizar el código proporcionado en este proyecto como punto de partida para tu propio análisis de texto y aplicaciones de aprendizaje automático relacionadas con datos de quejas de consumidores.
 
-Contribuciones
+## Contribuciones
+
 Las contribuciones son bienvenidas. Si deseas contribuir o informar sobre problemas, por favor abre un problema o envía una solicitud de extracción.
 
-Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
