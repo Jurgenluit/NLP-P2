@@ -19,8 +19,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes paquetes y bibl
 
 Puedes instalar estos paquetes utilizando `pip`:
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn nltk textblob wordcloud
+
 
 ## Proceso de Análisis
 
@@ -57,3 +56,7 @@ Las contribuciones son bienvenidas. Si deseas contribuir o informar sobre proble
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn nltk textblob wordcloud
