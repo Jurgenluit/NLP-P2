@@ -30,7 +30,7 @@ El proyecto se divide en varias etapas:
 
 4. **Descomposición de Matrices No Negativas (NMF)**: Aplicamos NMF para identificar temas latentes en las quejas y asignamos etiquetas de tema a cada queja.
 
-5. **Visualización de Temas**: Visualizamos los temas identificados y sus palabras clave más importantes.
+5. **Visualización de Tópicos**: Visualizamos los temas identificados y sus palabras clave más importantes.
 
 6. **Exploración de Datos**: Realizamos un análisis exploratorio de datos para comprender mejor la distribución de las quejas y otros patrones.
 
